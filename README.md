@@ -15,14 +15,15 @@ This project is an automated testing suite using **Cypress**, designed to test *
    git clone https://github.com/your-username/cypress_stripe_testing.git
    cd cypress_stripe_testing
    ```
-2. Install dependencies (using below command)
+2. Extract cypress.zip (I zipped the file to safeguard my Stripe API key, as Git’s security features prevent pushing sensitive information like API keys to the repository).
+3. Install dependencies (using below command)
    ```sh
     npm install
    ```
-3. Open Cypress Test runner
+4. Open Cypress Test runner
     ```sh
    npx cypress open
    ```
-4. Choose E2E Testing and select any browser (e.g., Chrome, Edge, Firefox)
+5. Choose E2E Testing and select any browser (e.g., Chrome, Edge, Firefox)
 
-5. Inside the Cypress test runner, locate and click on: **payment_intent.cy.js**
+6. Inside the Cypress test runner, locate and click on: **payment_intent.cy.js**
